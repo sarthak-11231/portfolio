@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="w-full relative z-10 py-32 px-6 sm:px-12 md:px-24 flex items-center justify-center">
+    <section id="contact" className="w-full relative z-10 px-6 md:px-12 py-16 md:py-28 flex items-center justify-center">
       <div className="max-w-3xl mx-auto w-full flex flex-col items-center text-center">
         
         {/* Typographic Header */}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" className="w-full relative z-10 py-28 px-6 sm:px-12 md:px-24">
+    <section id="about" className="w-full relative z-10 py-16 md:py-28 px-6 md:px-12">
       <div className="max-w-[1400px] mx-auto w-full">
         {/* Section Header */}
         <div className="mb-16 max-w-2xl">
