@@ -25,16 +25,16 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative w-full min-h-screen flex flex-col justify-center px-6 md:px-12 py-16 md:py-28 z-10 box-border overflow-x-hidden">
+    <section id="home" className="relative w-full min-h-screen flex flex-col justify-center px-4 md:px-12 pt-24 md:pt-28 pb-16 z-10 box-border overflow-x-hidden">
       {/* Main Content Area */}
-      <div className="w-full relative z-10 grid grid-cols-1 md:grid-cols-2 items-center lg:mt-12 gap-16 md:gap-24 max-w-[1400px] mx-auto">
+      <div className="w-full relative z-10 grid grid-cols-1 md:grid-cols-2 items-center lg:mt-12 gap-12 md:gap-24 max-w-[1400px] mx-auto">
         
         {/* Left Side: Typography */}
         <div className="relative flex flex-col w-full max-w-xl">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl xl:text-[9rem] font-bold text-white tracking-tight leading-[1.02] mb-6 md:mb-8 relative z-10">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl xl:text-[9rem] font-bold text-white tracking-tight leading-[1.1] md:leading-[1.02] mb-6 md:mb-8 relative z-10">
             Sarthak<br />Gupta
           </h1>
-          <div className="h-12 relative z-10 w-full overflow-hidden">
+          <div className="h-10 md:h-12 relative z-10 w-full overflow-hidden">
             {roles.map((role, i) => (
               <div 
                 key={i} 
@@ -51,16 +51,16 @@ const Hero = () => {
           <p className="text-base sm:text-lg text-white/60 max-w-xl leading-relaxed font-light mt-4 md:mt-5 relative z-10">
             I’m a Computer Science student focused on building scalable web applications and exploring AI, blockchain, and modern system design.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 mt-6 md:mt-4 relative z-10">
+          <div className="flex flex-col sm:flex-row gap-4 mt-8 md:mt-6 relative z-10">
             <a 
               href="#projects" 
-              className="bg-white text-black px-6 py-3 rounded-xl font-medium text-sm hover:opacity-90 hover:scale-[1.02] transition-all duration-300 ease-out text-center"
+              className="bg-white text-black px-8 py-4 rounded-xl font-bold text-sm hover:opacity-90 hover:scale-[1.02] transition-all duration-300 ease-out text-center"
             >
               View Work
             </a>
             <a 
               href="#contact" 
-              className="bg-white/10 border border-white/10 text-white px-6 py-3 rounded-xl font-medium text-sm hover:bg-white/20 hover:scale-[1.02] transition-all duration-300 ease-out text-center"
+              className="bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-bold text-sm hover:bg-white/20 hover:scale-[1.02] transition-all duration-300 ease-out text-center"
             >
               Get in touch
             </a>

@@ -26,19 +26,19 @@ export default function App() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#1c1c1c]/95"></div>
       </div>
 
-      {/* Floating Capsule Navbar with SG. logo inside */}
-      <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 bg-white/10 backdrop-blur-2xl border border-white/10 rounded-full px-8 py-3 flex items-center justify-between gap-8 shadow-[0_0_20px_rgba(0,0,0,0.2)] transition-all duration-300 hover:bg-white/10 hover:shadow-[0_10px_40px_-10px_rgba(255,255,255,0.05)] w-max">
-        <div className="text-white font-bold text-lg tracking-widest uppercase cursor-pointer pl-2">
+      {/* Floating Glass Pill Navbar */}
+      <nav className="fixed top-6 md:top-8 left-1/2 -translate-x-1/2 w-[90%] md:w-max h-max z-[100] bg-white/[0.08] backdrop-blur-xl border border-white/10 rounded-full px-4 md:px-8 py-2.5 md:py-3.5 flex items-center justify-between gap-6 md:gap-12 shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-all duration-300 hover:bg-white/[0.12] hover:border-white/20">
+        <div className="text-white font-bold text-base md:text-lg tracking-widest uppercase cursor-pointer pl-1 md:pl-2">
           SG.
         </div>
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-400">
+        <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
           <a href="#home" className="hover:text-white transition duration-300 ease-out">Home</a>
           <a href="#about" className="hover:text-white transition duration-300 ease-out">About</a>
           <a href="#projects" className="hover:text-white transition duration-300 ease-out">Work</a>
           <a href="#contact" className="hover:text-white transition duration-300 ease-out pr-2">Contact</a>
         </div>
         {/* Mobile menu button */}
-        <button className="md:hidden text-gray-300 hover:text-white transition-colors duration-300 mr-2">
+        <button className="md:hidden text-gray-300 hover:text-white transition-colors duration-300 pr-1">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
